@@ -1,0 +1,117 @@
+/* banner section style */
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&display=swap");
+
+body {
+  background-color: black;
+}
+
+.banner-container {
+  max-width: 1440px;
+  height: 600px;
+  background: linear-gradient(black, rgba(18, 15, 15, 0.909), black);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.nav-container i {
+  color: white;
+  display: none;
+}
+.ul-container {
+  display: flex;
+  margin-right: 150px;
+}
+.nav-container h1 {
+  color: #e6533c;
+  margin-left: 150px;
+}
+.list-container {
+  list-style: none;
+  margin-left: 40px;
+}
+.list-container span {
+  background-color: #e6533c;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.anchor-container {
+  text-decoration: none;
+  color: white;
+}
+.banner2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-text-container {
+  color: white;
+  margin-left: 150px;
+}
+.banner-h1 {
+  font-size: 52px;
+  font-family: "Inter", sans-serif;
+}
+.btn-primary {
+  background-color: #e6533c;
+  padding: 5px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.btn-primary2 {
+  padding: 5px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.btn-container {
+  display: flex;
+  gap: 12px;
+}
+.span1 {
+  font-family: "Italianno", cursive;
+}
+.banner-image {
+  margin-right: 70px;
+  display: flex;
+}
+.banner-image img {
+  width: 83%;
+}
+.banner-image button {
+}
+
+/* Change your habit style */
+
+.change-container {
+  width: 950px;
+  height: 430px;
+  margin: 0 auto;
+  margin-top: 23px;
+  color: white;
+}
+.change-text-container {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+.change-image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.change-image-container img {
+  border-radius: 50%;
+}
+.change-image1 h3 {
+  text-align: center;
+  justify-content: center;
+}
+.change-image1 h5 {
+  text-align: center;
+  justify-content: center;
+}
