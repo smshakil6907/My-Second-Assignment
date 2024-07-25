@@ -115,3 +115,34 @@ body {
   text-align: center;
   justify-content: center;
 }
+
+/* run an extra section style */
+
+.run-container {
+  width: 950px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 23px;
+  color: white;
+  background-color: #222222;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.run-text-container {
+  margin-top: 85px;
+  margin-left: 30px;
+}
+.run-text-container button {
+  padding: 8px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e6533c;
+}
+.run-image-container img {
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 23px;
+  margin-left: 175px;
+}

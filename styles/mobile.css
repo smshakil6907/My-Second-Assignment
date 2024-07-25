@@ -40,4 +40,21 @@
   .change-container {
     width: 400px;
   }
+  .run-container {
+    margin-top: 920px;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+  }
+  .run-text-container {
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+  .run-image-container img {
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+  .run-text-container button {
+    padding: 8px 100px;
+  }
 }
