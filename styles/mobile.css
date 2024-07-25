@@ -57,4 +57,19 @@
   .run-text-container button {
     padding: 8px 100px;
   }
+  /* bmi calculator style */
+  .bmi-calculator {
+    flex-direction: column;
+  }
+  .calculetor-text-container {
+    text-align: start;
+    align-items: start;
+  }
+  .bmi-calculator {
+    height: 700px;
+  }
+  .bmi-calculator-table,
+  .bmi-calculator-text {
+    margin-left: 12px;
+  }
 }
