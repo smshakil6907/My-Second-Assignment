@@ -269,3 +269,30 @@ th {
   font-size: 12px;
   color: #919191;
 }
+
+/* footer section style */
+
+.footer-container {
+  max-width: 1440px;
+  height: 320px;
+  background-color: #191919;
+  margin-top: 40px;
+}
+.footer-text-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-fitness,
+.footer-start,
+.footer-start2 {
+  margin-top: 30px;
+}
+.hr-line {
+  width: 988px;
+  margin: 0 auto;
+}
+.footer-h5 {
+  color: #919191;
+  text-align: center;
+}

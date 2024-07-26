@@ -84,7 +84,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .team-image-container {
-    width: 400px;
+    width: 380px;
     height: 1910px;
   }
   .image3 {
@@ -96,5 +96,17 @@
   }
   .image6 {
     width: 90%;
+  }
+  /* footer style */
+  .hr-line {
+    width: 380px;
+    margin: 0 auto;
+  }
+  .footer-text-container {
+    flex-direction: column;
+    margin-left: 12px;
+  }
+  .footer-container {
+    height: 720px;
   }
 }
