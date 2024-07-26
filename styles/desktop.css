@@ -220,3 +220,52 @@ th {
 .bmi-calculator-text {
   margin-top: 30px;
 }
+/* meet out team style */
+
+.meet-team-text-container {
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.team-image-container {
+  width: 680px;
+  height: 415px;
+  margin: 0 auto;
+  background-color: #222222;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 12px;
+  /* gap: 10px; */
+}
+.meet-team-container {
+  position: relative;
+}
+.meet-team-container img {
+  border-radius: 8px;
+  height: 90%;
+}
+.text-block {
+  position: absolute;
+  color: white;
+  margin-top: -70px;
+  margin-left: 12px;
+}
+.text-block span {
+  font-size: 12px;
+  color: #919191;
+}
+.image3 {
+  height: 100%;
+  width: 100%;
+}
+.text-block-h4 {
+  position: absolute;
+  color: white;
+  margin-top: -85px;
+  margin-left: 12px;
+}
+.text-block-h4 span {
+  font-size: 12px;
+  color: #919191;
+}

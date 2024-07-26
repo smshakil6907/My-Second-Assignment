@@ -72,4 +72,29 @@
   .bmi-calculator-text {
     margin-left: 12px;
   }
+  .meet-team-container img {
+    height: 90%;
+    width: 90%;
+    margin-left: 15px;
+  }
+  .text-block {
+    margin-left: 20px;
+  }
+  .team-image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-image-container {
+    width: 400px;
+    height: 1910px;
+  }
+  .image3 {
+    width: 90%;
+  }
+  .text-block-h4 {
+    margin-top: -100px;
+    margin-left: 30px;
+  }
+  .image6 {
+    width: 90%;
+  }
 }
