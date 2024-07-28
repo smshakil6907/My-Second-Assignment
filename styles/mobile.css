@@ -24,7 +24,10 @@
   }
   .banner-image-text {
     margin-top: 25px;
-    margin-left: 120px;
+    margin-left: 110px;
+  }
+  .line-hide h2 {
+    font-size: 27px;
   }
   .banner-image-text2 {
     margin-top: 150px;

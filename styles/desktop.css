@@ -17,7 +17,7 @@ body {
 .banner-container {
   max-width: 1440px;
   height: 600px;
-  background: linear-gradient(black, rgba(18, 15, 15, 0.909), black);
+  background: linear-gradient(black, rgba(58, 56, 56, 0.909), black);
 }
 .nav-container {
   display: flex;
@@ -35,6 +35,7 @@ body {
 .nav-container h1 {
   color: #e6533c;
   margin-left: 150px;
+  font-family: "Inter", sans-serif;
 }
 .list-container {
   list-style: none;
@@ -85,6 +86,7 @@ body {
 }
 .span1 {
   font-family: "Italianno", cursive;
+  font-weight: 1;
 }
 .banner-image {
   margin-right: 70px;
@@ -127,7 +129,7 @@ body {
 .circle {
   height: 30px;
   width: 30px;
-  background-color: red;
+  background-color: #e6533c;
   border-radius: 50%;
   margin-top: 15px;
   margin-right: 12px;
