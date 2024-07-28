@@ -22,7 +22,16 @@
     margin-left: 100px;
     margin-top: 50px;
   }
-  .change-image1 h3 {
+  .banner-image-text {
+    margin-top: 25px;
+    margin-left: 120px;
+  }
+  .banner-image-text2 {
+    margin-top: 150px;
+    margin-right: 20px;
+  }
+  /* change container style */
+  .change-image1 h4 {
     margin-right: 100px;
   }
   .change-image1 h5 {
@@ -44,10 +53,10 @@
     margin-top: 920px;
     flex-direction: column;
     width: 400px;
-    height: 400px;
+    height: 430px;
   }
   .run-text-container {
-    margin-top: 20px;
+    margin-top: 2px;
     margin-left: 55px;
   }
   .run-image-container img {
@@ -107,6 +116,6 @@
     margin-left: 12px;
   }
   .footer-container {
-    height: 720px;
+    height: 750px;
   }
 }

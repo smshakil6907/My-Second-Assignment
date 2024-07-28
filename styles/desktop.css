@@ -6,6 +6,14 @@ body {
   background-color: black;
 }
 
+.all-font-family {
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+}
+.all-mediam-font {
+  font-family: "Inter", sans-serif;
+}
+
 .banner-container {
   max-width: 1440px;
   height: 600px;
@@ -54,6 +62,9 @@ body {
   font-size: 52px;
   font-family: "Inter", sans-serif;
 }
+.banner-p2 {
+  color: #919191;
+}
 .btn-primary {
   background-color: #e6533c;
   padding: 5px 20px;
@@ -78,9 +89,48 @@ body {
 .banner-image {
   margin-right: 70px;
   display: flex;
+  position: relative;
 }
-.banner-image img {
-  width: 83%;
+.banner-image-text {
+  color: white;
+  position: absolute;
+  background-color: #393939b6;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-top: 120px;
+  margin-left: 180px;
+}
+.line-hide {
+  line-height: 0%;
+}
+.line-hide h2 {
+  font-family: "Inter", sans-serif;
+}
+.banner-image-text2 {
+  color: white;
+  position: absolute;
+  background-color: #222222c1;
+  padding: 2px 20px;
+  border-radius: 5px;
+  margin-top: 350px;
+  margin-left: -70px;
+  display: flex;
+}
+.banner-image-text span {
+  font-size: 8px;
+}
+.banner-image-text2 span {
+  font-size: 8px;
+}
+.span1 {
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-right: 12px;
 }
 .banner-image button {
 }
@@ -107,7 +157,7 @@ body {
 .change-image-container img {
   border-radius: 50%;
 }
-.change-image1 h3 {
+.change-image1 h4 {
   text-align: center;
   justify-content: center;
 }
@@ -139,6 +189,7 @@ body {
   border-radius: 20px;
   border: none;
   background-color: #e6533c;
+  color: white;
 }
 .run-image-container img {
   width: 70%;
@@ -272,6 +323,12 @@ th {
 
 /* footer section style */
 
+.fitness-h1 {
+  color: #e6533c;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+}
+
 .footer-container {
   max-width: 1440px;
   height: 320px;
@@ -291,6 +348,11 @@ th {
 .hr-line {
   width: 988px;
   margin: 0 auto;
+}
+.hr-line hr {
+  border: 0;
+  height: 1px;
+  background-color: #383838; /* Custom color */
 }
 .footer-h5 {
   color: #919191;
