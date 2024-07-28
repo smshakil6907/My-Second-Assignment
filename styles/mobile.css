@@ -52,7 +52,7 @@
   .run-container {
     margin-top: 920px;
     flex-direction: column;
-    width: 400px;
+    width: 360px;
     height: 430px;
   }
   .run-text-container {
@@ -93,7 +93,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .team-image-container {
-    width: 380px;
+    width: 360px;
     height: 1910px;
   }
   .image3 {
