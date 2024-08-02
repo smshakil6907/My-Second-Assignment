@@ -29,8 +29,19 @@ body {
   display: none;
 }
 .ul-container {
-  display: flex;
   margin-right: 150px;
+  border: 1px solid #9191912c;
+  border-radius: 23px;
+  height: 26px;
+}
+.li-container {
+  display: flex;
+  padding-top: 4px;
+}
+.ul-container,
+.li-container {
+  margin-left: -78px;
+  padding-right: 10px;
 }
 .nav-container h1 {
   color: #e6533c;
