@@ -134,6 +134,9 @@ body {
   margin-top: 15px;
   margin-right: 12px;
 }
+.circle2 i {
+  display: none;
+}
 .banner-image button {
 }
 
@@ -250,13 +253,23 @@ th {
   border-radius: 8px;
   margin: 3px;
 }
-.select input {
+.number2 select {
   background-color: #383838;
   padding: 8px;
   border: none;
-  width: 86%;
+  width: 44%;
   border-radius: 8px;
   margin: 3px;
+  color: #757575;
+}
+.select select {
+  background-color: #383838;
+  padding: 8px;
+  border: none;
+  width: 90%;
+  border-radius: 8px;
+  margin: 3px;
+  color: #757575;
 }
 .bmi-calculator-text h5 {
   color: #919191;
@@ -288,7 +301,7 @@ th {
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 12px;
+  padding: 20px;
   /* gap: 10px; */
 }
 .meet-team-container {

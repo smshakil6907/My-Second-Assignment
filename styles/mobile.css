@@ -29,6 +29,17 @@
   .line-hide h2 {
     font-size: 27px;
   }
+  .circle {
+    display: none;
+  }
+  .circle2 i {
+    display: block;
+    margin-top: 22px;
+    margin-right: 12px;
+    color: red;
+    width: 120%;
+  }
+
   .banner-image-text2 {
     margin-top: 150px;
     margin-right: 20px;
